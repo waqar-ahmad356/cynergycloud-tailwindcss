@@ -38,7 +38,7 @@ const Footer = () => {
 
         {/* Right section with contact information */}
         <div className="flex flex-col gap-4 lg:gap-5 lg:w-[301px]">
-          <h2 className="text-[#0F172A] text-[24px] leading-8 font-semibold">Contact</h2> {/* Section heading */}
+          <h2 className="text-[#0F172A] text-[24px] lg:text-[28px] lg:font-bold leading-8 font-semibold">Contact</h2> {/* Section heading */}
           <div className="flex flex-col gap-4 lg:gap-[18px] items-start"> {/* Contact info container */}
             
             {/* Contact info item 1: email */}
