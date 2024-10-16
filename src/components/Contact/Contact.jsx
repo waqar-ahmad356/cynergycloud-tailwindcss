@@ -8,11 +8,11 @@ import './Contact.css'
 // Contact component definition
 const Contact = () => {
   return (
-    <div className="px-[13px] lg:py-[89px] lg:pl-[191px] lg:pr-[194px] mb-[39px] mt-[17px]" id="contact">
-      <div className="flex flex-col lg:flex-row justify-between items-start gap-[39px] lg:p-[11px] lg:gap-[35px] lg:bg-[#ffffff] rounded-[12px] lg:shadow-custom ">
+    <div className="px-[13px] lg:py-[89px] lg:pl-[190px] lg:pr-[194px] mb-[39px] mt-[17px]" id="contact">
+      <div className="flex flex-col lg:flex-row justify-between items-start gap-[39px] lg:p-[11px] lg:gap-[35px] lg:bg-[#ffffff] lg:w-auto rounded-[12px] lg:shadow-custom ">
         
         {/* Contact Us section */}
-        <div className="flex contact-us lg:after:absolute   flex-col lg:w-[800px] lg:h-[750px] lg:px-[47px] lg:py-[47px] items-start gap-[9px] lg:gap-[131px] p-[16px] bg-[#22739C] rounded-[12px]">
+        <div className="flex contact-us lg:after:absolute   flex-col lg:w-auto lg:h-[800px] lg:px-[47px] lg:py-[47px] items-start gap-[9px] lg:gap-[131px] p-[16px] bg-[#22739C] rounded-[12px]">
           <div className="flex flex-col gap-[9px] lg:gap-[0.5px]">
             <h2 className="text-[24px] lg:text-[38px] lg:font-bold font-semibold text-white">Contact Us</h2> {/* Section heading */}
             <p className="text-[16px] lg:text-[24px]  text-[#C9C9C9] font-normal">Say something to start a live chat!</p> {/* Introductory text */}
