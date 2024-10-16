@@ -18,7 +18,6 @@ const Navbar = () => {
          <img src={logo} className="w-[120px] h-[25px] lg:w-[266px] lg:h-[55px] cursor-pointer" alt="Logo" /></Link> 
         </div>
         <div className={`${isMobileMenuOpen?"flex":"hidden"} flex-col lg:flex lg:flex-row items-center absolute lg:static top-12 right-0 w-full lg:w-auto
-        
         bg-white lg:bg-transparent lg:gap-12 py-6 lg:py-0`}>
           <ul className="flex flex-col lg:flex-row items-center gap-6 lg:gap-12 mb-0">
             <li>
@@ -36,12 +35,12 @@ const Navbar = () => {
           </ul>
         </div>
         <div className={`${isMobileMenuOpen ? "flex" : "hidden"}
-        flex-col lg:flex lg:flex-row  items-center absolute lg:static top-[280px]  lg:top-0 w-full lg:w-auto bg-white lg:bg-transparent py-0 lg:py-0`}>
+        flex-col lg:flex lg:flex-row  items-center absolute lg:static top-[275px]  lg:top-0 w-full lg:w-auto bg-white lg:bg-transparent py-0 lg:py-0`}>
           <ul className="flex flex-col ml-[-40px] lg:flex-row  items-center gap-4 lg:gap-6 mb-0">
             <li className="login">
-              <a href="#login" className="text-[#22739C] font-medium text-lg">Login</a>
+              <a href="#login" className="text-[#22739C] cursor-pointer font-medium text-lg">Login</a>
             </li>
-            <li className="btn btn-primary bg-primary bg-[#22739C] text-white rounded-full border-[##22739C] px-6 py-3 font-medium text-lg" >
+            <li className="btn cursor-pointer btn-primary bg-primary bg-[#22739C] text-white rounded-full border-[##22739C] px-6 py-3 font-medium text-lg" >
               <Link  to="signup" smooth={true} offset={0} duration={100} >
                 Sign Up
               </Link>

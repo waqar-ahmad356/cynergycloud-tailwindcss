@@ -1,0 +1,36 @@
+/* Larger ellipse decoration (right side) */
+.contact-us{
+  position: relative;
+}
+.contact-us::before {
+    content: ""; /* Empty content for the decoration */
+    position: absolute; /* Absolute positioning */
+    bottom: -81px; /* Positioned below the bottom */
+    right: -81px; /* Positioned to the right */
+    z-index: 2; /* Lower stacking order */
+    border-radius: 316px; /* Large round shape */
+    background: rgba(255, 255, 255, 0.12); /* Transparent white background */
+    width: 250px; /* Width of the ellipse */
+    height: 250px; /* Height of the ellipse */
+  }
+  
+  /* Smaller ellipse decoration (right side) */
+  .contact-us::after {
+    content: ""; /* Empty content for the decoration */
+    position: absolute; /* Absolute positioning */
+    bottom: 70px; /* Positioned above the bottom */
+    right: 50px; /* Positioned to the right */
+    z-index: 3; /* Higher stacking order */
+    border-radius: 316px; /* Small round shape */
+    background: rgba(255, 255, 255, 0.12); /* Transparent white background */
+    width: 140px; /* Width of the ellipse */
+    height: 140px; /* Height of the ellipse */
+  }
+  @media (max-width:768px){
+    .contact-us::before {
+      display: none;
+    }
+    .contact-us::after{
+      display: none;
+    }
+  }

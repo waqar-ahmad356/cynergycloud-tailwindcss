@@ -4,7 +4,7 @@ import signup_img from "../../assets/Gif for synergy 1.png"; // Ensure the corre
 
 const Signup = () => {
   return (
-    <div className="py-[17px] lg:py[47px] lg:px-[19px] px-[12px] lg:bg-[#eeeeee]">
+    <div className="py-[17px] lg:py[47px] lg:px-[19px] px-[12px] lg:bg-[#eeeeee]" id="signup">
       <div className="flex flex-col lg:flex-row lg:py-[120px] lg:justify-center lg:gap[94px] gap-[49px]">
         {/* Signup Form Section */}
         <div className="px-[35px] flex flex-col gap-[40px] lg:gap-[68px]">

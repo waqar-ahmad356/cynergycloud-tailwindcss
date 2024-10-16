@@ -5,7 +5,7 @@ import about_img from '../../assets/right.png'; // Importing the image to be use
 // About component definition
 const About = () => {
   return (
-    <div className="px-16px lg:p-[94px]">
+    <div className="px-16px lg:p-[94px]" id="about">
       <div className="flex flex-col-reverse lg:flex-row lg:gap-[94px] gap-4 justify-center items-center ">
         {/* Image section */}
         <div className="flex justify-center items-center">
