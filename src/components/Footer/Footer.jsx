@@ -1,5 +1,4 @@
 import React from "react";
-
 import logo from "../../assets/logo.png"; // Importing the logo image
 import linkedin from "../../assets/linkedin.png"; // Importing the LinkedIn icon
 import phone from "../../assets/phone2.png"; // Importing the phone icon
