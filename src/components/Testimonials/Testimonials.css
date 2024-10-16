@@ -1,0 +1,16 @@
+
+
+  
+  @media (max-width: 768px) {
+    .testimonials {
+      padding: 10px 0px;
+    }
+    .testimonials h2 {
+      font-size: 24px;
+      margin-bottom: 0px;
+    }
+    .testimonials p {
+      font-size: 16px;
+    }
+  }
+  

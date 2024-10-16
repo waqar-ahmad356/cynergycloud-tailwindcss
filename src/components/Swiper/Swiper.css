@@ -1,0 +1,30 @@
+
+ 
+ 
+  
+  /* Adjust for smaller screens */
+  /* Adjust for smaller screens */
+  @media (max-width: 768px) {
+    SwiperSlide {
+      width: calc(60% - 20px); /* Center slide will take 60% of the width */
+      margin: 0 10px; /* Spacing between slides */
+    }
+  
+    /* Center the active card */
+    Swiper {
+      padding: 0 40px; /* Add side padding for the partial slides */
+    }
+  
+  
+  
+    /* Adjust for partially visible slides */
+    SwiperSlide:first-child {
+      margin-left: -15%; /* Show part of the first slide */
+    }
+    
+    SwiperSlide:last-child {
+      margin-right: -15%; /* Show part of the last slide */
+    }
+  }
+  
+  
