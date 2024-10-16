@@ -40,8 +40,8 @@ const MySwiper = () => {
         modules={[Autoplay]} className="p-0"
       >
         {Array.from({ length: 10 }, (_, index) => (
-          <SwiperSlide key={index} className="lg:w-[calc(20%-20px)] w-[calc(60%-20px)] flex justify-center ">
-            <div className="flex flex-col lg:p-7 p-3 lg:gap-[96px] gap-[41px] bg-[#eeeeee] lg:w-[260px] w-[200px] rounded-[12px] ">
+          <SwiperSlide key={index} className="lg:w-[calc(20%-20px)] w-[calc(60%-20px)] flex justify-center lg:gap-2 ">
+            <div className="flex flex-col lg:p-7 p-3 lg:gap-[96px] gap-[41px] bg-[#eeeeee] lg:w-[500px] w-[200px] rounded-[12px] ">
             <div className="flex flex-col gap-1 lg:gap-[10px]">
               <img
                 src={testimonial_icon} className="lg:w-[79px] lg:h[84px] w-[35px] h-[37px]"
