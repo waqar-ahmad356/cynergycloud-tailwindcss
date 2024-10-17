@@ -6,6 +6,7 @@ import Footer from './components/Footer/Footer'
 import Signup from './components/Signup/Signup'
 import Contact from './components/Contact/Contact'
 import Testimonials from './components/Testimonials/Testimonials'
+import Pricing from './components/Pricing/Pricing'
 
 const App = () => {
   return (
@@ -13,6 +14,7 @@ const App = () => {
       <Navbar/>
       <Hero/>
       <About/>
+      <Pricing/>
       <Testimonials/>
       <Signup/>
       <Contact/>

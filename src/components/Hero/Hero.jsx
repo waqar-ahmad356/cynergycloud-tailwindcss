@@ -2,6 +2,7 @@ import React from "react";
 
 import arrow from "../../assets/arrow.png"; // Arrow icon for the button
 import desktop from "../../assets/desktop-app.png"; // Image for desktop view in hero section
+import Autotyping from "../AutoTyping/AutoTyping";
 
 const Hero = () => {
   return (
@@ -15,7 +16,7 @@ const Hero = () => {
         <div className="flex flex-col justify-center items-center gap-[8px]">
           {/* Hero Heading */}
           <h2 className="text-[#0F172A] lg:text-[56px] text-center font-bold text-[24px]">
-            Unlock Seamless with SynergyCloud:
+            Unlock <Autotyping/> Seamless with SynergyCloud:
             <br /> Where Teams Connect and Ideas Flourish!
           </h2>
           {/* Hero Description */}
